@@ -1,0 +1,10 @@
+echo "What is your name? "
+read Name
+
+if [ $1 = You ]; then
+	echo "You are the one"
+elif [ {$1} = Me ]; then
+	echo "You can never be me"
+else
+	echo "What's your name"
+fi
