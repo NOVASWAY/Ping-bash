@@ -1,9 +1,9 @@
 echo "What is your name? "
 read Name
 
-if [ $1 = You ]; then
+if [ Name -eq You ]; then
 	echo "You are the one"
-elif [ {$1} = Me ]; then
+elif [ Name -eq Me ]; then
 	echo "You can never be me"
 else
 	echo "What's your name"
